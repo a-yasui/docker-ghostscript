@@ -30,4 +30,4 @@ I need arm64 image. It's just only.
 Via
 ----
 
-Fork From: https://github.com/atyasu/ghostscript
+Fork From: https://github.com/minidocks/ghostscript

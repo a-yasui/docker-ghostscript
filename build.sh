@@ -1,14 +1,14 @@
 #!/bin/sh
 set -e
 
-image="${namespace:-minidocks}/ghostscript"
+image="${namespace:-atyasu}/ghostscript"
 versions="
 9
 latest
 "
 
 build() {
-    docker build $docker_opts -t "$image:$1" "$(dirname $0)"
+    docker buildx build $docker_opts --platform linux/amd64,linux/arm64 -t "$image:$1" --push "$(dirname $0)"
 }
 
 case "$1" in

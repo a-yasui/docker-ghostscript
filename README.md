@@ -1,4 +1,4 @@
-Ghostscript docker image (minidocks/ghostscript)
+Ghostscript docker image (atyasu/ghostscript)
 ================================================
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ghostscript.svg/100px-Ghostscript.svg.png)
@@ -11,7 +11,7 @@ Usage
 -----
 
 ```bash
-docker run --rm -v `pwd`:/app -w /app minidocks/ghostscript 
+docker run --rm -v `pwd`:/app -w /app atyasu/ghostscript 
 ```
 
 Tags
@@ -19,5 +19,10 @@ Tags
 
  Tag    | Size
  ---    | ----
- latest | [![](https://images.microbadger.com/badges/image/minidocks/ghostscript.svg)](https://microbadger.com/images/minidocks/ghostscript)
- 9      | [![](https://images.microbadger.com/badges/image/minidocks/ghostscript:9.svg)](https://microbadger.com/images/minidocks/ghostscript:9)
+ latest | [![](https://images.microbadger.com/badges/image/atyasu/ghostscript.svg)](https://microbadger.com/images/atyasu/ghostscript)
+ 9      | [![](https://images.microbadger.com/badges/image/atyasu/ghostscript:9.svg)](https://microbadger.com/images/atyasu/ghostscript:9)
+
+Via
+----
+
+Fork From: https://github.com/atyasu/ghostscript

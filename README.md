@@ -20,7 +20,12 @@ Tags
  Tag    | Size
  ---    | ----
  latest | [![](https://images.microbadger.com/badges/image/atyasu/ghostscript.svg)](https://microbadger.com/images/atyasu/ghostscript)
- 9      | [![](https://images.microbadger.com/badges/image/atyasu/ghostscript:9.svg)](https://microbadger.com/images/atyasu/ghostscript:9)
+
+
+Why Fork
+--------
+
+I need arm64 image. It's just only.
 
 Via
 ----
